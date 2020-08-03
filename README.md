@@ -38,6 +38,10 @@ Must be logged into Spotify in order to save playlist to your account!
 ## Usage
 Navigate to [Ravenous](http://hard-balance.surge.sh/). User can search for businesses in their area and use search filters that filter results by best match, highest, rated, and most viewed.
 
+<p align="center">
+  <img src="https://github.com/cjpalmerin/ravenous/blob/master/client/src/assets/images/Screen%20Shot%202020-08-03%20at%203.59.32%20PM.png?raw=true">
+</p>
+
 ## Deployment
 ### [Ravenous](http://hard-balance.surge.sh/)
 
