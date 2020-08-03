@@ -10,7 +10,7 @@ export class BusinessList extends React.Component {
             <div className="BusinessList">
                {
                    businesses.map((business) => {
-                       return <Business business={business} />;
+                       return <Business business={business} key={business.id}/>;
                    })
             }
             </div>

@@ -7,8 +7,8 @@ const yelp = {
                 Authorization: `Bearer ${apiKey}`
             }
         }).then((response) => {
-            response.json()
-        }).then((jsonResponse) => {
+            return response.json()
+        }).then(jsonResponse => {
             if(jsonResponse.businesses) {
                 return jsonResponse.businesses.map((business) => {
                     return{
